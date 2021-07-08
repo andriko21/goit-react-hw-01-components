@@ -19,12 +19,12 @@ li {
   padding: 15px;
   display: inline-block;
   margin-top: 50px;
-  margin-left: 624px;
+  margin-left: 24px;
   margin-right: auto;
 }
 .avatar {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 }
 
 .name {
@@ -45,12 +45,6 @@ li {
   align-content: center;
   display: flex;
   font-weight: 700;
-}
-
-.stats {
-  /* justify-content: center;
-  align-content: center; */
-  margin-left: 115px;
 }
 
 .statistics {
@@ -77,4 +71,8 @@ li {
 
 .label {
   margin-right: 3px;
+}
+
+.friend-list {
+  display: inline-flex;
 }
