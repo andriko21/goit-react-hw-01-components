@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const FriendItem = ({ avatar, name, isOnline }) => (
   <li className="item">
-    <span className="status">{isOnline}</span>
+    <span className="status" style={{ backgroundColor: (isOnline) ? "red" : "green" }}>{isOnline}</span>
     <img className="avatar" src={avatar} alt="" width="48" />
     <p className="name">{name}</p>
   </li>
