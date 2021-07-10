@@ -15,4 +15,5 @@ FriendItem.propTypes = {
     name: PropTypes.string.isRequired,  
 }
 
+
 export default FriendItem;

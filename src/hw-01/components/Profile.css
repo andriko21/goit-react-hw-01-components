@@ -1,0 +1,32 @@
+.profile {
+  outline: 5px solid black;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 24px;
+  margin-right: auto;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+}
+
+.name {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  font-weight: 700;
+  font-size: large;
+}
+.tag {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  font-weight: 700;
+}
+.location {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  font-weight: 700;
+}

@@ -1,0 +1,25 @@
+.statistics {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+}
+.stat-list {
+  display: inline-flex;
+  /* margin-top: 45px; */
+}
+.stat-list .item {
+  margin-right: 5px;
+  border: 3px solid black;
+  padding: 3px;
+}
+
+.label {
+  margin-right: 3px;
+}

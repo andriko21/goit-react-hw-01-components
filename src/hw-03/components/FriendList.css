@@ -1,0 +1,15 @@
+.friend-list {
+  display: inline-flex;
+}
+
+.friend-list .item {
+  margin-right: 10px;
+  outline: 3px solid black;
+  padding: 15px;
+}
+.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
