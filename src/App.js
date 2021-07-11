@@ -1,12 +1,12 @@
 import React from "react";
-import Profile from "./hw-01/components/Profile";
-import user from './hw-01/data/user.json';
-import Statistics from "./hw-02/components/Statistics";
-import statisticalData from "./hw-02/data/statistical-data.json";
-import FriendList from "./hw-03/components/FriendList";
-import friends from "./hw-03/data/friends.json";
-import TransactionsHistory from "./hw-04/components/Transactions";
-import transactions from "./hw-04/data/transactions.json";
+import Profile from "./components/Profile/Profile.js";
+import user from './data/user.json';
+import Statistics from "./components/Statistics/Statistics.js";
+import statisticalData from "./data/statistical-data.json";
+import FriendList from "./components/FriendList/FriendList.js";
+import friends from "./data/friends.json";
+import TransactionsHistory from "./components/Transactions/Transactions.js";
+import transactions from "./data/transactions.json";
 // import './App.css';
 const App = () => {
   return (

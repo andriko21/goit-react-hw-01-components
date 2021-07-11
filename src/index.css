@@ -14,7 +14,7 @@ code {
 li {
   list-style-type: none;
 }
-@import url("./hw-01/components/Profile.css");
-@import url("./hw-02/components/Statistics.css");
-@import url("./hw-03/components/FriendList.css");
-@import url("./hw-04/components/Transactions.css");
+@import url("./components/Profile/Profile.css");
+@import url("./components/Statistics/Statistics.css");
+@import url("./components/FriendList/FriendList.css");
+@import url("./components/Transactions/Transactions.css");
